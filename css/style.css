@@ -29,11 +29,30 @@ p {
   color: #343a40;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:576px) {
+
+  #page-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #FFA500;
+  }
+
+  #page-top a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
   .row {
     margin-bottom: 30px;
   }
-}
 
 
 .submit-color {
@@ -56,4 +75,6 @@ p {
 footer {
   background-color: #343a40;
   text-align: center;
+}
+
 }
